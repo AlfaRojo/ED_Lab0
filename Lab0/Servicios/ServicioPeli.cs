@@ -17,7 +17,7 @@ namespace Lab0.Servicios
                 for (int i = 1; i <= Singleton.Instance.Peliculas.Count(); i++)
                 {
                     int j = i-1;
-                    if (listaPeliculas.Count() > 11)
+                    if (listaPeliculas.Count() == 10)
                     {
                         return listaPeliculas;
                     }
